@@ -1,0 +1,22 @@
+# Ocean Depths theme - night variant
+# Scheme: vogix16
+
+polarity = "dark"
+
+[colors]
+base00 = "#0c1a26"
+base01 = "#152736"
+base02 = "#1e3549"
+base03 = "#2d4c69"
+base04 = "#43678a"
+base05 = "#5d839c"
+base06 = "#a5c8dc"
+base07 = "#eef9ff"
+base08 = "#ff475e"
+base09 = "#ff9c5e"
+base0A = "#ffd373"
+base0B = "#60dfff"
+base0C = "#44ffd2"
+base0D = "#72c2d1"
+base0E = "#c39fff"
+base0F = "#b8865f"

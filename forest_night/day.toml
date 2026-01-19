@@ -1,0 +1,22 @@
+# Forest Night theme - day variant
+# Scheme: vogix16
+
+polarity = "light"
+
+[colors]
+base00 = "#ebefe9"
+base01 = "#d8e1db"
+base02 = "#b3c4ba"
+base03 = "#8aa894"
+base04 = "#678568"
+base05 = "#435645"
+base06 = "#2c3c2f"
+base07 = "#0f1a12"
+base08 = "#8fae62"
+base09 = "#c9a45b"
+base0A = "#b59c3e"
+base0B = "#5389a0"
+base0C = "#72a8c0"
+base0D = "#483825"
+base0E = "#658996"
+base0F = "#6b5a48"

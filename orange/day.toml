@@ -1,0 +1,22 @@
+# Orange theme - day variant
+# Scheme: vogix16
+
+polarity = "light"
+
+[colors]
+base00 = "#fff2e6"
+base01 = "#ffe9d4"
+base02 = "#e9b38c"
+base03 = "#d9915b"
+base04 = "#a65f1a"
+base05 = "#804515"
+base06 = "#5c3213"
+base07 = "#2a1506"
+base08 = "#cc3e2f"
+base09 = "#cf752a"
+base0A = "#b89d40"
+base0B = "#4d9a32"
+base0C = "#348a95"
+base0D = "#2b74b3"
+base0E = "#8764b4"
+base0F = "#7a5230"

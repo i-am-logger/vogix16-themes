@@ -1,0 +1,22 @@
+# Crystal Cave theme - day variant
+# Scheme: vogix16
+
+polarity = "light"
+
+[colors]
+base00 = "#e9e4f0"
+base01 = "#d8cee7"
+base02 = "#c8b8db"
+base03 = "#9a82b0"
+base04 = "#7a6098"
+base05 = "#5a4478"
+base06 = "#3c2b52"
+base07 = "#1a1325"
+base08 = "#6a0dad"
+base09 = "#b8860b"
+base0A = "#aa8c30"
+base0B = "#45a397"
+base0C = "#3aab87"
+base0D = "#c48c8d"
+base0E = "#9b3a47"
+base0F = "#4a9f4a"

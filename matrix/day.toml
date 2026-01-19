@@ -1,0 +1,22 @@
+# Matrix theme - day variant
+# Scheme: vogix16
+
+polarity = "light"
+
+[colors]
+base00 = "#f0fff0"
+base01 = "#d2ffd2"
+base02 = "#92ff92"
+base03 = "#70e070"
+base04 = "#37c837"
+base05 = "#00ff00"
+base06 = "#1e4b1e"
+base07 = "#0a0f00"
+base08 = "#cc0000"
+base09 = "#cc9900"
+base0A = "#88cc00"
+base0B = "#00cc00"
+base0C = "#66cc99"
+base0D = "#00cccc"
+base0E = "#cc00cc"
+base0F = "#997700"

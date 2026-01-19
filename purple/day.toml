@@ -1,0 +1,22 @@
+# Purple theme - day variant
+# Scheme: vogix16
+
+polarity = "light"
+
+[colors]
+base00 = "#e2d8f0"
+base01 = "#c4b2dd"
+base02 = "#a98fcc"
+base03 = "#8b71b4"
+base04 = "#6e5299"
+base05 = "#4c3666"
+base06 = "#3b2a4c"
+base07 = "#1e1628"
+base08 = "#a73146"
+base09 = "#b65a37"
+base0A = "#a57a2f"
+base0B = "#677e13"
+base0C = "#178f79"
+base0D = "#2b74a9"
+base0E = "#8a4e7d"
+base0F = "#7a5230"

@@ -1,0 +1,22 @@
+# Mainframe theme - day variant
+# Scheme: vogix16
+
+polarity = "light"
+
+[colors]
+base00 = "#fff2e6"
+base01 = "#ffe0b3"
+base02 = "#ffcc80"
+base03 = "#ffb000"
+base04 = "#e69500"
+base05 = "#cc7a00"
+base06 = "#996300"
+base07 = "#663300"
+base08 = "#cc3300"
+base09 = "#cc7700"
+base0A = "#d48a00"
+base0B = "#b37200"
+base0C = "#996600"
+base0D = "#8c5e00"
+base0E = "#804000"
+base0F = "#663300"

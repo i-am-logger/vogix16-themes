@@ -1,0 +1,22 @@
+# Retro theme - night variant
+# Scheme: vogix16
+
+polarity = "dark"
+
+[colors]
+base00 = "#2c2837"
+base01 = "#3e3847"
+base02 = "#544d56"
+base03 = "#6e6a73"
+base04 = "#868282"
+base05 = "#a39e9b"
+base06 = "#d0c9c5"
+base07 = "#f2f1e4"
+base08 = "#dc7a7a"
+base09 = "#d99f57"
+base0A = "#ccc566"
+base0B = "#92ba89"
+base0C = "#80b7bc"
+base0D = "#7c94b8"
+base0E = "#a288b5"
+base0F = "#9d8169"

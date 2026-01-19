@@ -1,0 +1,22 @@
+# Green theme - night variant
+# Scheme: vogix16
+
+polarity = "dark"
+
+[colors]
+base00 = "#0e2714"
+base01 = "#193821"
+base02 = "#224c2c"
+base03 = "#2d5c35"
+base04 = "#4b835a"
+base05 = "#81b38c"
+base06 = "#b9d7be"
+base07 = "#e3f1e4"
+base08 = "#fd8489"
+base09 = "#ffaa7b"
+base0A = "#fcd384"
+base0B = "#a6e44d"
+base0C = "#83dfdf"
+base0D = "#73afe5"
+base0E = "#df99f0"
+base0F = "#b8865f"

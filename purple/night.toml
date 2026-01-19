@@ -1,0 +1,22 @@
+# Purple theme - night variant
+# Scheme: vogix16
+
+polarity = "dark"
+
+[colors]
+base00 = "#1e1628"
+base01 = "#2c1f3a"
+base02 = "#3b2a4c"
+base03 = "#4c3666"
+base04 = "#6e5299"
+base05 = "#a98fcc"
+base06 = "#c4b2dd"
+base07 = "#e2d8f0"
+base08 = "#cb6077"
+base09 = "#d28b71"
+base0A = "#f4bc87"
+base0B = "#beb55b"
+base0C = "#7bbda4"
+base0D = "#8ab9d9"
+base0E = "#d699b6"
+base0F = "#a16946"

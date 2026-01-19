@@ -1,0 +1,22 @@
+# Ghost theme - night variant
+# Scheme: vogix16
+
+polarity = "dark"
+
+[colors]
+base00 = "#1a1a2e"
+base01 = "#232347"
+base02 = "#303a5a"
+base03 = "#4a5580"
+base04 = "#7b88b5"
+base05 = "#b8c6db"
+base06 = "#d5e3ff"
+base07 = "#eef5ff"
+base08 = "#9370db"
+base09 = "#a389d6"
+base0A = "#b8a2e0"
+base0B = "#6495ed"
+base0C = "#87cefa"
+base0D = "#7b68ee"
+base0E = "#9370db"
+base0F = "#8b7355"

@@ -1,0 +1,22 @@
+# Cyberspace theme - day variant
+# Scheme: vogix16
+
+polarity = "light"
+
+[colors]
+base00 = "#e0ffff"
+base01 = "#a8d8ea"
+base02 = "#66fcf1"
+base03 = "#45a29e"
+base04 = "#278ea5"
+base05 = "#1f4287"
+base06 = "#142850"
+base07 = "#0a192f"
+base08 = "#9b1b30"
+base09 = "#f48668"
+base0A = "#ffdc6a"
+base0B = "#03dac6"
+base0C = "#3498db"
+base0D = "#0085ff"
+base0E = "#7e4dd2"
+base0F = "#4a9f4a"

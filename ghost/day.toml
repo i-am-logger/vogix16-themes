@@ -1,0 +1,22 @@
+# Ghost theme - day variant
+# Scheme: vogix16
+
+polarity = "light"
+
+[colors]
+base00 = "#f6f5f0"
+base01 = "#e9e4d4"
+base02 = "#cbc3bc"
+base03 = "#a29990"
+base04 = "#6c5d53"
+base05 = "#54433a"
+base06 = "#3b3028"
+base07 = "#262626"
+base08 = "#2a3328"
+base09 = "#604c3f"
+base0A = "#8a6642"
+base0B = "#c73b2d"
+base0C = "#56778e"
+base0D = "#12447d"
+base0E = "#6a4c9c"
+base0F = "#7a5c42"

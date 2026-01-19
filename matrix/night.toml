@@ -1,0 +1,22 @@
+# Matrix theme - night variant
+# Scheme: vogix16
+
+polarity = "dark"
+
+[colors]
+base00 = "#0a0f00"
+base01 = "#143214"
+base02 = "#1e4b1e"
+base03 = "#206420"
+base04 = "#37c837"
+base05 = "#00ff00"
+base06 = "#92ff92"
+base07 = "#f0fff0"
+base08 = "#ff0000"
+base09 = "#ffcc00"
+base0A = "#aaff00"
+base0B = "#00ff00"
+base0C = "#97ffbd"
+base0D = "#00ffff"
+base0E = "#ff00ff"
+base0F = "#cc9900"
