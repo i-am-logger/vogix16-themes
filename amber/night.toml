@@ -1,0 +1,23 @@
+# Amber theme - night variant
+# Classic P3 amber CRT phosphor
+# Scheme: vogix16
+
+polarity = "dark"
+
+[colors]
+base00 = "#1a1200"
+base01 = "#2a1e00"
+base02 = "#3e2e08"
+base03 = "#584412"
+base04 = "#7a6430"
+base05 = "#b8964c"
+base06 = "#dcc080"
+base07 = "#f8e8c0"
+base08 = "#88b840"
+base09 = "#ffb400"
+base0A = "#e8d44c"
+base0B = "#ff5555"
+base0C = "#60bca0"
+base0D = "#5898d0"
+base0E = "#c878d8"
+base0F = "#9a7838"

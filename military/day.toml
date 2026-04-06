@@ -1,0 +1,23 @@
+# Military theme - day variant
+# Night-vision tactical green — P39 phosphor
+# Scheme: vogix16
+
+polarity = "light"
+
+[colors]
+base00 = "#d0eed5"
+base01 = "#b2ddb9"
+base02 = "#94cc9e"
+base03 = "#6baa78"
+base04 = "#4a7a56"
+base05 = "#2e5438"
+base06 = "#1e3c25"
+base07 = "#0a1a0e"
+base08 = "#20c050"
+base09 = "#c87a30"
+base0A = "#b8a832"
+base0B = "#d44040"
+base0C = "#40b898"
+base0D = "#3894cc"
+base0E = "#a060cc"
+base0F = "#607040"

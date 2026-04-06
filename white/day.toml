@@ -1,0 +1,23 @@
+# White theme - day variant
+# Classic P4 white CRT phosphor — neutral monochrome
+# Scheme: vogix16
+
+polarity = "light"
+
+[colors]
+base00 = "#e8e8e8"
+base01 = "#d0d0d0"
+base02 = "#b8b8b8"
+base03 = "#909090"
+base04 = "#787878"
+base05 = "#505050"
+base06 = "#333333"
+base07 = "#141414"
+base08 = "#48a048"
+base09 = "#c07830"
+base0A = "#b0a030"
+base0B = "#c04040"
+base0C = "#389898"
+base0D = "#3878b8"
+base0E = "#9058b8"
+base0F = "#707070"

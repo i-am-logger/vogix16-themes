@@ -1,0 +1,23 @@
+# Walnut theme - night variant
+# Dark stained wood
+# Scheme: vogix16
+
+polarity = "dark"
+
+[colors]
+base00 = "#18100a"
+base01 = "#261a10"
+base02 = "#38281a"
+base03 = "#503c28"
+base04 = "#705840"
+base05 = "#a08060"
+base06 = "#c8a888"
+base07 = "#f0dcc8"
+base08 = "#78904c"
+base09 = "#b35a1a"
+base0A = "#c8a040"
+base0B = "#d85040"
+base0C = "#58908c"
+base0D = "#5888b0"
+base0E = "#9870a8"
+base0F = "#806040"

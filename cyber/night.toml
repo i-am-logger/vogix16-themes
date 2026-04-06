@@ -1,0 +1,23 @@
+# Cyber theme - night variant
+# Neon futuristic cyan
+# Scheme: vogix16
+
+polarity = "dark"
+
+[colors]
+base00 = "#001a1a"
+base01 = "#002828"
+base02 = "#003c3c"
+base03 = "#105858"
+base04 = "#307878"
+base05 = "#60b0b0"
+base06 = "#a0d8d8"
+base07 = "#e0f8f8"
+base08 = "#50d880"
+base09 = "#e89050"
+base0A = "#d4cc50"
+base0B = "#ff5577"
+base0C = "#00ffff"
+base0D = "#50a0e8"
+base0E = "#c070e8"
+base0F = "#508888"
