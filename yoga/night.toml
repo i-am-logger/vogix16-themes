@@ -1,0 +1,26 @@
+# Yoga theme - night variant
+# Same monochromatic base as aikido, conventional functional colors
+# Scheme: vogix16
+
+polarity = "dark"
+
+[colors]
+# Monochromatic base (same as aikido night)
+base00 = "#262626"
+base01 = "#333333"
+base02 = "#3b3028"
+base03 = "#54433a"
+base04 = "#6c5d53"
+base05 = "#a29990"
+base06 = "#cbc3bc"
+base07 = "#f6f5f0"
+
+# Functional colors (conventional)
+base08 = "#5ba65b"
+base09 = "#e5a84b"
+base0A = "#6bb8e0"
+base0B = "#e05252"
+base0C = "#7ec8e3"
+base0D = "#5b8dd9"
+base0E = "#c678dd"
+base0F = "#d19a66"
