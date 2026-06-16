@@ -52,7 +52,7 @@ def extract_from_toml(toml_path):
 def verify_theme(theme_name, svg_path, theme_dir):
     """Verify a single theme matches."""
     if not svg_path.exists():
-        return False, "SVG not found"
+        return None, "no SVG (TOML-only, skipped)"
 
     night_path = theme_dir / "night.toml"
     day_path = theme_dir / "day.toml"
@@ -105,10 +105,13 @@ def main():
 
     # Find all theme directories
     exclude_dirs = {"docs", "scripts", "assets", ".git"}
-    theme_dirs = sorted([
-        d for d in repo_root.iterdir()
-        if d.is_dir() and d.name not in exclude_dirs and not d.name.startswith(".")
-    ])
+    theme_dirs = sorted(
+        [
+            d
+            for d in repo_root.iterdir()
+            if d.is_dir() and d.name not in exclude_dirs and not d.name.startswith(".")
+        ]
+    )
 
     print("Verifying Theme Extraction")
     print("=" * 60)
@@ -122,21 +125,24 @@ def main():
         success, message = verify_theme(theme_name, svg_path, theme_dir)
         results.append((theme_name, success, message))
 
-        status = "OK" if success else "FAIL"
+        status = {True: "OK", False: "FAIL", None: "SKIP"}[success]
         print(f"[{status}] {theme_name:20s} {message}")
 
     print("\n" + "=" * 60)
-    passed = sum(1 for _, success, _ in results if success)
-    print(f"Results: {passed}/{len(results)} themes verified")
+    passed = sum(1 for _, s, _ in results if s is True)
+    skipped = sum(1 for _, s, _ in results if s is None)
+    failed = sum(1 for _, s, _ in results if s is False)
+    print(f"Results: {passed}/{passed + failed} themes verified ({skipped} skipped, no SVG)")
 
-    if passed == len(results):
-        print("All themes match their SVG sources!")
+    if failed == 0:
+        print("All themes with SVG sources match!")
         return 0
     else:
-        print(f"Warning: {len(results) - passed} themes have mismatches")
+        print(f"Warning: {failed} themes have mismatches")
         return 1
 
 
 if __name__ == "__main__":
     import sys
+
     sys.exit(main())

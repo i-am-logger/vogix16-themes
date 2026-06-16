@@ -62,7 +62,7 @@ Quick preview of theme colors in terminal.
 ```
 
 **What it does:**
-- Shows base00 (background), base05 (foreground), base08 (danger) for each theme
+- Shows base00 (background), base05 (foreground), base08 (success) for each theme
 - Quick way to verify themes have unique colors
 - Useful for spotting extraction issues
 

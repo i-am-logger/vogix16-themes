@@ -1,110 +1,76 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600">
-  <!-- Split Background - Cyberpunk inspired theme -->
-  <rect x="0" y="0" width="500" height="600" fill="#0a192f"/> <!-- Deep cyber blue -->
-  <rect x="500" y="0" width="500" height="600" fill="#e0ffff"/> <!-- Light cyan -->
-  
-  <!-- Title -->
-  <text x="250" y="40" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#f6f5f0">Cyberspace Dark</text>
-  <text x="750" y="40" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#0a192f">Cyberspace Light</text>
-  
-  <!-- Dark Theme Content -->
-  <text x="60" y="80" font-family="monospace" font-size="14" fill="#66fcf1"># Cyberspace monochromatic scale (dark to light)</text>
-  
-  <rect x="60" y="100" width="20" height="20" rx="2" fill="#0a192f" stroke="#1f4287" stroke-width="1"/>
-  <text x="90" y="115" font-family="monospace" font-size="14" fill="#66fcf1">base00 = "#0a192f" # DeepCyber</text>
-  
-  <rect x="60" y="130" width="20" height="20" rx="2" fill="#142850"/>
-  <text x="90" y="145" font-family="monospace" font-size="14" fill="#66fcf1">base01 = "#142850" # DarkGrid</text>
-  
-  <rect x="60" y="160" width="20" height="20" rx="2" fill="#1f4287"/>
-  <text x="90" y="175" font-family="monospace" font-size="14" fill="#66fcf1">base02 = "#1f4287" # MidnightBlue</text>
-  
-  <rect x="60" y="190" width="20" height="20" rx="2" fill="#278ea5"/>
-  <text x="90" y="205" font-family="monospace" font-size="14" fill="#66fcf1">base03 = "#278ea5" # CyberTeal</text>
-  
-  <rect x="60" y="220" width="20" height="20" rx="2" fill="#45a29e"/>
-  <text x="90" y="235" font-family="monospace" font-size="14" fill="#66fcf1">base04 = "#45a29e" # MatrixGreen</text>
-  
-  <rect x="60" y="250" width="20" height="20" rx="2" fill="#66fcf1"/>
-  <text x="90" y="265" font-family="monospace" font-size="14" fill="#66fcf1">base05 = "#66fcf1" # ElectricCyan</text>
-  
-  <rect x="60" y="280" width="20" height="20" rx="2" fill="#a8d8ea"/>
-  <text x="90" y="295" font-family="monospace" font-size="14" fill="#a8d8ea">base06 = "#a8d8ea" # LightCyan</text>
-  
-  <rect x="60" y="310" width="20" height="20" rx="2" fill="#e0ffff"/>
-  <text x="90" y="325" font-family="monospace" font-size="14" fill="#e0ffff">base07 = "#e0ffff" # GlowWhite</text>
-  
-  <text x="60" y="360" font-family="monospace" font-size="14" fill="#66fcf1"># Functional colors</text>
-  
-  <rect x="60" y="380" width="20" height="20" rx="2" fill="#ff2a6d"/>
-  <text x="90" y="395" font-family="monospace" font-size="14" fill="#ff2a6d">base08 = "#ff2a6d" # Error</text>
-  
-  <rect x="60" y="410" width="20" height="20" rx="2" fill="#f8b500"/>
-  <text x="90" y="425" font-family="monospace" font-size="14" fill="#f8b500">base09 = "#f8b500" # Warning</text>
-  
-  <rect x="60" y="440" width="20" height="20" rx="2" fill="#ccff00"/>
-  <text x="90" y="455" font-family="monospace" font-size="14" fill="#ccff00">base0A = "#ccff00" # Notice</text>
-  
-  <rect x="60" y="470" width="20" height="20" rx="2" fill="#05ffa1"/>
-  <text x="90" y="485" font-family="monospace" font-size="14" fill="#05ffa1">base0B = "#05ffa1" # Success</text>
-  
-  <rect x="60" y="500" width="20" height="20" rx="2" fill="#7d17f4"/>
-  <text x="90" y="515" font-family="monospace" font-size="14" fill="#7d17f4">base0C = "#7d17f4" # Selection</text>
-  
-  <rect x="60" y="530" width="20" height="20" rx="2" fill="#00ffd5"/>
-  <text x="90" y="545" font-family="monospace" font-size="14" fill="#00ffd5">base0D = "#00ffd5" # Information</text>
-  
-  <rect x="60" y="560" width="20" height="20" rx="2" fill="#b967ff"/>
-  <text x="90" y="575" font-family="monospace" font-size="14" fill="#b967ff">base0E = "#b967ff" # Focus</text>
-  
-  <!-- Light Theme Content -->
-  <text x="560" y="80" font-family="monospace" font-size="14" fill="#0a192f"># Cyberspace monochromatic scale (light to dark)</text>
-  
-  <rect x="560" y="100" width="20" height="20" rx="2" fill="#e0ffff" stroke="#a8d8ea" stroke-width="1"/>
-  <text x="590" y="115" font-family="monospace" font-size="14" fill="#0a192f">base00 = "#e0ffff" # GlowWhite</text>
-  
-  <rect x="560" y="130" width="20" height="20" rx="2" fill="#a8d8ea"/>
-  <text x="590" y="145" font-family="monospace" font-size="14" fill="#0a192f">base01 = "#a8d8ea" # LightCyan</text>
-  
-  <rect x="560" y="160" width="20" height="20" rx="2" fill="#66fcf1"/>
-  <text x="590" y="175" font-family="monospace" font-size="14" fill="#0a192f">base02 = "#66fcf1" # ElectricCyan</text>
-  
-  <rect x="560" y="190" width="20" height="20" rx="2" fill="#45a29e"/>
-  <text x="590" y="205" font-family="monospace" font-size="14" fill="#0a192f">base03 = "#45a29e" # MatrixGreen</text>
-  
-  <rect x="560" y="220" width="20" height="20" rx="2" fill="#278ea5"/>
-  <text x="590" y="235" font-family="monospace" font-size="14" fill="#0a192f">base04 = "#278ea5" # CyberTeal</text>
-  
-  <rect x="560" y="250" width="20" height="20" rx="2" fill="#1f4287"/>
-  <text x="590" y="265" font-family="monospace" font-size="14" fill="#1f4287">base05 = "#1f4287" # MidnightBlue</text>
-  
-  <rect x="560" y="280" width="20" height="20" rx="2" fill="#142850"/>
-  <text x="590" y="295" font-family="monospace" font-size="14" fill="#142850">base06 = "#142850" # DarkGrid</text>
-  
-  <rect x="560" y="310" width="20" height="20" rx="2" fill="#0a192f"/>
-  <text x="590" y="325" font-family="monospace" font-size="14" fill="#0a192f">base07 = "#0a192f" # DeepCyber</text>
-  
-  <text x="560" y="360" font-family="monospace" font-size="14" fill="#54433a"># Functional colors</text>
-  
-  <rect x="560" y="380" width="20" height="20" rx="2" fill="#9b1b30"/>
-  <text x="590" y="395" font-family="monospace" font-size="14" fill="#9b1b30">base08 = "#9b1b30" # Error</text>
-  
-  <rect x="560" y="410" width="20" height="20" rx="2" fill="#f48668"/>
-  <text x="590" y="425" font-family="monospace" font-size="14" fill="#f48668">base09 = "#f48668" # Warning</text>
-  
-  <rect x="560" y="440" width="20" height="20" rx="2" fill="#ffdc6a"/>
-  <text x="590" y="455" font-family="monospace" font-size="14" fill="#ffdc6a">base0A = "#ffdc6a" # Notice</text>
-  
-  <rect x="560" y="470" width="20" height="20" rx="2" fill="#03dac6"/>
-  <text x="590" y="485" font-family="monospace" font-size="14" fill="#03dac6">base0B = "#03dac6" # Success</text>
-  
-  <rect x="560" y="500" width="20" height="20" rx="2" fill="#3498db"/>
-  <text x="590" y="515" font-family="monospace" font-size="14" fill="#3498db">base0C = "#3498db" # Selection</text>
-  
-  <rect x="560" y="530" width="20" height="20" rx="2" fill="#0085ff"/>
-  <text x="590" y="545" font-family="monospace" font-size="14" fill="#0085ff">base0D = "#0085ff" # Information</text>
-  
-  <rect x="560" y="560" width="20" height="20" rx="2" fill="#7e4dd2"/>
-  <text x="590" y="575" font-family="monospace" font-size="14" fill="#7e4dd2">base0E = "#7e4dd2" # Focus</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650">
+  <!-- Cyberspace theme — generated from cyberspace/{night,day}.toml by scripts/generate-previews.py; edit the TOML, not this file. -->
+  <rect x="0" y="0" width="500" height="650" fill="#06121f"/>
+  <rect x="500" y="0" width="500" height="650" fill="#e6ffff"/>
+  <text x="250" y="40" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#dafffb">Cyberspace Dark</text>
+  <text x="60" y="80" font-family="monospace" font-size="14" fill="#5fd9e0"># Cyberspace monochromatic scale</text>
+  <rect x="60" y="100" width="20" height="20" rx="2" fill="#06121f" stroke="#5fd9e0" stroke-width="1"/>
+  <text x="90" y="115" font-family="monospace" font-size="14" fill="#5fd9e0">base00 = "#06121f" # DeepCyber</text>
+  <rect x="60" y="130" width="20" height="20" rx="2" fill="#0c2436"/>
+  <text x="90" y="145" font-family="monospace" font-size="14" fill="#5fd9e0">base01 = "#0c2436" # DarkGrid</text>
+  <rect x="60" y="160" width="20" height="20" rx="2" fill="#143a52"/>
+  <text x="90" y="175" font-family="monospace" font-size="14" fill="#5fd9e0">base02 = "#143a52" # MidnightBlue</text>
+  <rect x="60" y="190" width="20" height="20" rx="2" fill="#1d5872"/>
+  <text x="90" y="205" font-family="monospace" font-size="14" fill="#5fd9e0">base03 = "#1d5872" # CyberTeal</text>
+  <rect x="60" y="220" width="20" height="20" rx="2" fill="#2e8fa3"/>
+  <text x="90" y="235" font-family="monospace" font-size="14" fill="#2e8fa3">base04 = "#2e8fa3" # MatrixGreen</text>
+  <rect x="60" y="250" width="20" height="20" rx="2" fill="#5fd9e0"/>
+  <text x="90" y="265" font-family="monospace" font-size="14" fill="#5fd9e0">base05 = "#5fd9e0" # ElectricCyan</text>
+  <rect x="60" y="280" width="20" height="20" rx="2" fill="#9defee"/>
+  <text x="90" y="295" font-family="monospace" font-size="14" fill="#9defee">base06 = "#9defee" # LightCyan</text>
+  <rect x="60" y="310" width="20" height="20" rx="2" fill="#dafffb"/>
+  <text x="90" y="325" font-family="monospace" font-size="14" fill="#dafffb">base07 = "#dafffb" # GlowWhite</text>
+  <text x="60" y="360" font-family="monospace" font-size="14" fill="#5fd9e0"># Functional colors</text>
+  <rect x="60" y="390" width="20" height="20" rx="2" fill="#39ff8b"/>
+  <text x="90" y="405" font-family="monospace" font-size="14" fill="#39ff8b">base08 = "#39ff8b" # Success</text>
+  <rect x="60" y="420" width="20" height="20" rx="2" fill="#fcee0a"/>
+  <text x="90" y="435" font-family="monospace" font-size="14" fill="#fcee0a">base09 = "#fcee0a" # Warning</text>
+  <rect x="60" y="450" width="20" height="20" rx="2" fill="#a6ff00"/>
+  <text x="90" y="465" font-family="monospace" font-size="14" fill="#a6ff00">base0A = "#a6ff00" # Notice</text>
+  <rect x="60" y="480" width="20" height="20" rx="2" fill="#ff2a6d"/>
+  <text x="90" y="495" font-family="monospace" font-size="14" fill="#ff2a6d">base0B = "#ff2a6d" # Danger</text>
+  <rect x="60" y="510" width="20" height="20" rx="2" fill="#00fff9"/>
+  <text x="90" y="525" font-family="monospace" font-size="14" fill="#00fff9">base0C = "#00fff9" # Active</text>
+  <rect x="60" y="540" width="20" height="20" rx="2" fill="#3ad1ff"/>
+  <text x="90" y="555" font-family="monospace" font-size="14" fill="#3ad1ff">base0D = "#3ad1ff" # Link</text>
+  <rect x="60" y="570" width="20" height="20" rx="2" fill="#c64dff"/>
+  <text x="90" y="585" font-family="monospace" font-size="14" fill="#c64dff">base0E = "#c64dff" # Highlight</text>
+  <rect x="60" y="600" width="20" height="20" rx="2" fill="#ff6bb0"/>
+  <text x="90" y="615" font-family="monospace" font-size="14" fill="#ff6bb0">base0F = "#ff6bb0" # Special</text>
+  <text x="750" y="40" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#06121f">Cyberspace Light</text>
+  <text x="560" y="80" font-family="monospace" font-size="14" fill="#13506b"># Cyberspace monochromatic scale</text>
+  <rect x="560" y="100" width="20" height="20" rx="2" fill="#e6ffff" stroke="#13506b" stroke-width="1"/>
+  <text x="590" y="115" font-family="monospace" font-size="14" fill="#13506b">base00 = "#e6ffff" # GlowWhite</text>
+  <rect x="560" y="130" width="20" height="20" rx="2" fill="#b6e8f0"/>
+  <text x="590" y="145" font-family="monospace" font-size="14" fill="#13506b">base01 = "#b6e8f0" # LightCyan</text>
+  <rect x="560" y="160" width="20" height="20" rx="2" fill="#7fc4d6"/>
+  <text x="590" y="175" font-family="monospace" font-size="14" fill="#13506b">base02 = "#7fc4d6" # ElectricCyan</text>
+  <rect x="560" y="190" width="20" height="20" rx="2" fill="#3f93ad"/>
+  <text x="590" y="205" font-family="monospace" font-size="14" fill="#3f93ad">base03 = "#3f93ad" # MatrixGreen</text>
+  <rect x="560" y="220" width="20" height="20" rx="2" fill="#226f8a"/>
+  <text x="590" y="235" font-family="monospace" font-size="14" fill="#226f8a">base04 = "#226f8a" # CyberTeal</text>
+  <rect x="560" y="250" width="20" height="20" rx="2" fill="#13506b"/>
+  <text x="590" y="265" font-family="monospace" font-size="14" fill="#13506b">base05 = "#13506b" # MidnightBlue</text>
+  <rect x="560" y="280" width="20" height="20" rx="2" fill="#0c3047"/>
+  <text x="590" y="295" font-family="monospace" font-size="14" fill="#0c3047">base06 = "#0c3047" # DarkGrid</text>
+  <rect x="560" y="310" width="20" height="20" rx="2" fill="#06121f"/>
+  <text x="590" y="325" font-family="monospace" font-size="14" fill="#06121f">base07 = "#06121f" # DeepCyber</text>
+  <text x="560" y="360" font-family="monospace" font-size="14" fill="#13506b"># Functional colors</text>
+  <rect x="560" y="390" width="20" height="20" rx="2" fill="#00735a"/>
+  <text x="590" y="405" font-family="monospace" font-size="14" fill="#00735a">base08 = "#00735a" # Success</text>
+  <rect x="560" y="420" width="20" height="20" rx="2" fill="#9a6a00"/>
+  <text x="590" y="435" font-family="monospace" font-size="14" fill="#9a6a00">base09 = "#9a6a00" # Warning</text>
+  <rect x="560" y="450" width="20" height="20" rx="2" fill="#5a7a00"/>
+  <text x="590" y="465" font-family="monospace" font-size="14" fill="#5a7a00">base0A = "#5a7a00" # Notice</text>
+  <rect x="560" y="480" width="20" height="20" rx="2" fill="#c80a4b"/>
+  <text x="590" y="495" font-family="monospace" font-size="14" fill="#c80a4b">base0B = "#c80a4b" # Danger</text>
+  <rect x="560" y="510" width="20" height="20" rx="2" fill="#007579"/>
+  <text x="590" y="525" font-family="monospace" font-size="14" fill="#007579">base0C = "#007579" # Active</text>
+  <rect x="560" y="540" width="20" height="20" rx="2" fill="#0072c6"/>
+  <text x="590" y="555" font-family="monospace" font-size="14" fill="#0072c6">base0D = "#0072c6" # Link</text>
+  <rect x="560" y="570" width="20" height="20" rx="2" fill="#8a2bd4"/>
+  <text x="590" y="585" font-family="monospace" font-size="14" fill="#8a2bd4">base0E = "#8a2bd4" # Highlight</text>
+  <rect x="560" y="600" width="20" height="20" rx="2" fill="#b3267a"/>
+  <text x="590" y="615" font-family="monospace" font-size="14" fill="#b3267a">base0F = "#b3267a" # Special</text>
 </svg>

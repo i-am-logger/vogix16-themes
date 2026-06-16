@@ -68,6 +68,18 @@ A gemstone-inspired theme with deep cave shadows to crystalline white progressio
 
 <img src="assets/vogix16_crystal_cave.svg" width="50%" alt="Crystal Cave Theme">
 
+### Walnut
+
+Dark stained walnut (Juglans nigra): a warm wood-grain ramp climbing from near-black oiled heartwood to creamy pale sapwood.
+
+<img src="assets/vogix16_walnut.svg" width="50%" alt="Walnut Theme">
+
+### Yoga
+
+The default theme — the same sumi-ink warm-grey calligraphy neutrals as Aikido, but dressed in conventional Western functional colors (success green, danger red).
+
+<img src="assets/vogix16_yoga.svg" width="50%" alt="Yoga Theme">
+
 ## Hacker Themes
 
 Hacker themes evoke the aesthetic of classic computer terminals and cyberpunk interfaces, featuring monochromatic glows reminiscent of old CRT monitors and command-line environments.
@@ -92,9 +104,33 @@ A vintage mainframe terminal aesthetic with amber on deep brown-black, featuring
 
 ### Ghost
 
-A spectral grayscale theme with subtle green undertones, featuring monochromatic functional indicators with barely perceptible color tints, creating an ethereal, ghostly interface aesthetic with minimal distractions.
+A spectral cool blue-slate theme — a desaturated vapor void resolving into pale, ethereal spirit-light, with restrained functional accents and minimal distraction.
 
 <img src="assets/vogix16_ghost.svg" width="50%" alt="Ghost Theme">
+
+### Amber
+
+Authentic P3 amber CRT phosphor (~590 nm) glowing on near-black tube glass — the long-persistence amber of DEC VT220 and ADM-3A terminals. One warm amber family; emphasis by brightness, never alien chroma.
+
+<img src="assets/vogix16_amber.svg" width="50%" alt="Amber Theme">
+
+### Cyber
+
+Electric-cyan CRT cyberpunk: a near-black void climbing to glowing cyan-white, with a coherent neon accent spectrum.
+
+<img src="assets/vogix16_cyber.svg" width="50%" alt="Cyber Theme">
+
+### Military
+
+Night-vision / tactical green — the iconic image-intensifier glow, distinct from CRT phosphor green and olive drab.
+
+<img src="assets/vogix16_military.svg" width="50%" alt="Military Theme">
+
+### White
+
+Classic P4 white CRT phosphor — the black-and-white television phosphor blend; a clean neutral monochrome (the counterpart to Matrix's P1 green).
+
+<img src="assets/vogix16_white.svg" width="50%" alt="White Theme">
 
 ## Modern Themes
 

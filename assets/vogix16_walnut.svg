@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650">
+  <!-- Walnut theme — generated from walnut/{night,day}.toml by scripts/generate-previews.py; edit the TOML, not this file. -->
+  <rect x="0" y="0" width="500" height="650" fill="#160f09"/>
+  <rect x="500" y="0" width="500" height="650" fill="#ecdcc6"/>
+  <text x="250" y="40" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#f1ddc9">Walnut Dark</text>
+  <text x="60" y="80" font-family="monospace" font-size="14" fill="#a8896a"># Walnut monochromatic scale</text>
+  <rect x="60" y="100" width="20" height="20" rx="2" fill="#160f09" stroke="#a8896a" stroke-width="1"/>
+  <text x="90" y="115" font-family="monospace" font-size="14" fill="#a8896a">base00 = "#160f09" # Background</text>
+  <rect x="60" y="130" width="20" height="20" rx="2" fill="#241910"/>
+  <text x="90" y="145" font-family="monospace" font-size="14" fill="#a8896a">base01 = "#241910" # Surface</text>
+  <rect x="60" y="160" width="20" height="20" rx="2" fill="#34261a"/>
+  <text x="90" y="175" font-family="monospace" font-size="14" fill="#a8896a">base02 = "#34261a" # Overlay</text>
+  <rect x="60" y="190" width="20" height="20" rx="2" fill="#4c3a28"/>
+  <text x="90" y="205" font-family="monospace" font-size="14" fill="#a8896a">base03 = "#4c3a28" # Comment</text>
+  <rect x="60" y="220" width="20" height="20" rx="2" fill="#6e563e"/>
+  <text x="90" y="235" font-family="monospace" font-size="14" fill="#a8896a">base04 = "#6e563e" # Border</text>
+  <rect x="60" y="250" width="20" height="20" rx="2" fill="#a8896a"/>
+  <text x="90" y="265" font-family="monospace" font-size="14" fill="#a8896a">base05 = "#a8896a" # Foreground</text>
+  <rect x="60" y="280" width="20" height="20" rx="2" fill="#cbac8a"/>
+  <text x="90" y="295" font-family="monospace" font-size="14" fill="#cbac8a">base06 = "#cbac8a" # Heading</text>
+  <rect x="60" y="310" width="20" height="20" rx="2" fill="#f1ddc9"/>
+  <text x="90" y="325" font-family="monospace" font-size="14" fill="#f1ddc9">base07 = "#f1ddc9" # Bright</text>
+  <text x="60" y="360" font-family="monospace" font-size="14" fill="#a8896a"># Functional colors</text>
+  <rect x="60" y="390" width="20" height="20" rx="2" fill="#7d9850"/>
+  <text x="90" y="405" font-family="monospace" font-size="14" fill="#7d9850">base08 = "#7d9850" # Success</text>
+  <rect x="60" y="420" width="20" height="20" rx="2" fill="#c2701c"/>
+  <text x="90" y="435" font-family="monospace" font-size="14" fill="#c2701c">base09 = "#c2701c" # Warning</text>
+  <rect x="60" y="450" width="20" height="20" rx="2" fill="#d4ac3e"/>
+  <text x="90" y="465" font-family="monospace" font-size="14" fill="#d4ac3e">base0A = "#d4ac3e" # Notice</text>
+  <rect x="60" y="480" width="20" height="20" rx="2" fill="#dc5544"/>
+  <text x="90" y="495" font-family="monospace" font-size="14" fill="#dc5544">base0B = "#dc5544" # Danger</text>
+  <rect x="60" y="510" width="20" height="20" rx="2" fill="#5fa39a"/>
+  <text x="90" y="525" font-family="monospace" font-size="14" fill="#5fa39a">base0C = "#5fa39a" # Active</text>
+  <rect x="60" y="540" width="20" height="20" rx="2" fill="#6f9ad0"/>
+  <text x="90" y="555" font-family="monospace" font-size="14" fill="#6f9ad0">base0D = "#6f9ad0" # Link</text>
+  <rect x="60" y="570" width="20" height="20" rx="2" fill="#b083c4"/>
+  <text x="90" y="585" font-family="monospace" font-size="14" fill="#b083c4">base0E = "#b083c4" # Highlight</text>
+  <rect x="60" y="600" width="20" height="20" rx="2" fill="#a87a48"/>
+  <text x="90" y="615" font-family="monospace" font-size="14" fill="#a87a48">base0F = "#a87a48" # Special</text>
+  <text x="750" y="40" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#160f09">Walnut Light</text>
+  <text x="560" y="80" font-family="monospace" font-size="14" fill="#4a3826"># Walnut monochromatic scale</text>
+  <rect x="560" y="100" width="20" height="20" rx="2" fill="#ecdcc6" stroke="#4a3826" stroke-width="1"/>
+  <text x="590" y="115" font-family="monospace" font-size="14" fill="#4a3826">base00 = "#ecdcc6" # Background</text>
+  <rect x="560" y="130" width="20" height="20" rx="2" fill="#cbab85"/>
+  <text x="590" y="145" font-family="monospace" font-size="14" fill="#4a3826">base01 = "#cbab85" # Surface</text>
+  <rect x="560" y="160" width="20" height="20" rx="2" fill="#ad8c6a"/>
+  <text x="590" y="175" font-family="monospace" font-size="14" fill="#4a3826">base02 = "#ad8c6a" # Overlay</text>
+  <rect x="560" y="190" width="20" height="20" rx="2" fill="#8c6c4c"/>
+  <text x="590" y="205" font-family="monospace" font-size="14" fill="#8c6c4c">base03 = "#8c6c4c" # Comment</text>
+  <rect x="560" y="220" width="20" height="20" rx="2" fill="#6a5238"/>
+  <text x="590" y="235" font-family="monospace" font-size="14" fill="#6a5238">base04 = "#6a5238" # Border</text>
+  <rect x="560" y="250" width="20" height="20" rx="2" fill="#4a3826"/>
+  <text x="590" y="265" font-family="monospace" font-size="14" fill="#4a3826">base05 = "#4a3826" # Foreground</text>
+  <rect x="560" y="280" width="20" height="20" rx="2" fill="#322014"/>
+  <text x="590" y="295" font-family="monospace" font-size="14" fill="#322014">base06 = "#322014" # Heading</text>
+  <rect x="560" y="310" width="20" height="20" rx="2" fill="#160f09"/>
+  <text x="590" y="325" font-family="monospace" font-size="14" fill="#160f09">base07 = "#160f09" # Bright</text>
+  <text x="560" y="360" font-family="monospace" font-size="14" fill="#4a3826"># Functional colors</text>
+  <rect x="560" y="390" width="20" height="20" rx="2" fill="#4f6226"/>
+  <text x="590" y="405" font-family="monospace" font-size="14" fill="#4f6226">base08 = "#4f6226" # Success</text>
+  <rect x="560" y="420" width="20" height="20" rx="2" fill="#9a4810"/>
+  <text x="590" y="435" font-family="monospace" font-size="14" fill="#9a4810">base09 = "#9a4810" # Warning</text>
+  <rect x="560" y="450" width="20" height="20" rx="2" fill="#7e5a0c"/>
+  <text x="590" y="465" font-family="monospace" font-size="14" fill="#7e5a0c">base0A = "#7e5a0c" # Notice</text>
+  <rect x="560" y="480" width="20" height="20" rx="2" fill="#b22f24"/>
+  <text x="590" y="495" font-family="monospace" font-size="14" fill="#b22f24">base0B = "#b22f24" # Danger</text>
+  <rect x="560" y="510" width="20" height="20" rx="2" fill="#2a6258"/>
+  <text x="590" y="525" font-family="monospace" font-size="14" fill="#2a6258">base0C = "#2a6258" # Active</text>
+  <rect x="560" y="540" width="20" height="20" rx="2" fill="#3a5f96"/>
+  <text x="590" y="555" font-family="monospace" font-size="14" fill="#3a5f96">base0D = "#3a5f96" # Link</text>
+  <rect x="560" y="570" width="20" height="20" rx="2" fill="#7a4c8e"/>
+  <text x="590" y="585" font-family="monospace" font-size="14" fill="#7a4c8e">base0E = "#7a4c8e" # Highlight</text>
+  <rect x="560" y="600" width="20" height="20" rx="2" fill="#6b4a24"/>
+  <text x="590" y="615" font-family="monospace" font-size="14" fill="#6b4a24">base0F = "#6b4a24" # Special</text>
+</svg>
