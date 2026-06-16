@@ -40,16 +40,16 @@ When using vogix16 in NixOS/home-manager, these colors are exposed with semantic
 
 When using vogix16 in NixOS/home-manager, these colors are exposed with semantic names:
 
-- **base08** (`danger`): Error/danger - Error states, destructive actions, critical alerts
+- **base08** (`success`): Success/confirmed - Success states, completed actions, positive indicators
 - **base09** (`warning`): Warning/caution - Warning indicators, important notifications, cautionary elements
 - **base0A** (`notice`): Notice/attention - Status notifications, announcements, noteworthy information
-- **base0B** (`success`): Success/confirmed - Success states, completed actions, positive indicators
+- **base0B** (`danger`): Error/danger - Error states, destructive actions, critical alerts
 - **base0C** (`active`): Active/current - Current selection, active element, focused content
 - **base0D** (`link`): Links/interactive - Clickable elements, links, primary actions, informational content
 - **base0E** (`highlight`): Focus/highlight - Focus indicators, highlighted content, secondary actions
 - **base0F** (`special`): Special states - System messages, specialized indicators, tertiary elements
 
-> **Important**: vogix16 defines functional colors by their semantic purpose, not by specific hues. While traditional color associations (red for errors, green for success) may be used, they are not required. What matters is that each functional color maintains its semantic meaning consistently across all interfaces and themes.
+> **Important**: vogix16 defines functional colors by their semantic purpose, not by specific hues. The *role* (e.g. base08 = success) is fixed; the *hue* that fills it is the theme's editorial/cultural choice. While traditional Western associations (green for success, red for errors) may be used, they are not required — e.g. the **yoga** theme follows the Western convention (success green, danger red) while **aikido** follows the Japanese convention (success red, danger green). Same roles, opposite hues. What matters is that each functional color maintains its semantic meaning consistently across all interfaces and themes.
 
 ### Key Differences from Base16
 
@@ -57,7 +57,7 @@ When using vogix16 in NixOS/home-manager, these colors are exposed with semantic
 
 2. **Dark and Light Variants**: Themes have both dark and light variants. In dark variants, base00 is the darkest color and base07 is the lightest. In light variants, this is reversed: base00 is the lightest and base07 is the darkest.
 
-3. **Strict Functional Color Usage**: Colors are assigned based on semantic function rather than aesthetics. Each functional color has a consistent purpose (e.g., base08 always represents errors/danger) even if the actual color used varies between themes.
+3. **Strict Functional Color Usage**: Colors are assigned based on semantic function rather than aesthetics. Each functional color has a consistent purpose (e.g., base08 always represents success) even if the actual color used varies between themes.
 
 4. **Not an ANSI Color Scheme**: vogix16 is a design system, not an ANSI terminal color scheme. Applications receive vogix16 colors through their own configuration files with semantic color names, not through ANSI escape codes.
 
