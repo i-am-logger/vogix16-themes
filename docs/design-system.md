@@ -2,7 +2,7 @@
 
 > Functional colors for minimalist minds.
 
-<img src="../assets/vogix16_example.svg" width="100%" alt="Vogix16 Theme Example">
+<img src="../assets/vogix16_yoga.svg" width="100%" alt="The default yoga theme (dark + light)">
 
 ## Color Scheme Philosophies
 

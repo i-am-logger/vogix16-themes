@@ -2,14 +2,16 @@
 
 Color themes for the [vogix16 design system](docs/design-system.md), used by [Vogix](https://github.com/i-am-logger/vogix).
 
-<img src="assets/vogix16_example.svg" width="100%" alt="Vogix16 Theme Example">
+<img src="assets/vogix16_yoga.svg" width="100%" alt="The default yoga theme (dark + light)">
+
+> The default **yoga** theme, dark + light. Browse all 25 in the [theme gallery](THEMES.md). All previews are generated from the theme TOMLs by `scripts/generate-previews.py`.
 
 ## Design System
 
 The vogix16 scheme is a semantic design system where colors convey functional meaning:
 
 - **Monochromatic base** (base00-base07): UI structure from background to bright
-- **Functional colors** (base08-base0F): Semantic purpose (danger, warning, success, etc.)
+- **Functional colors** (base08-base0F): Semantic purpose (success, warning, notice, danger, etc.)
 
 See [docs/design-system.md](docs/design-system.md) for the complete philosophy and color usage guidelines.
 
@@ -45,15 +47,17 @@ base04 = "#6c5d53"  # Borders
 base05 = "#a29990"  # Text
 base06 = "#cbc3bc"  # Headings
 base07 = "#f6f5f0"  # Bright
-base08 = "#d7503c"  # Danger
+base08 = "#d7503c"  # Success
 base09 = "#835538"  # Warning
 base0A = "#bfa46f"  # Notice
-base0B = "#4d5645"  # Success
+base0B = "#4d5645"  # Danger
 base0C = "#8694a8"  # Active
 base0D = "#658fbd"  # Link
 base0E = "#896ea4"  # Highlight
 base0F = "#7a5c42"  # Special
 ```
+
+> The functional **role** is fixed by slot (`base08` is always success, `base0B` danger, …) — the **hue** is the theme's editorial/cultural choice. This example is `aikido` (Japanese convention: success red, danger green); a Western theme like `yoga` uses green for success and red for danger. See [docs/design-system.md](docs/design-system.md).
 
 ## Available Themes
 

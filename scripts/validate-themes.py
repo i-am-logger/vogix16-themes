@@ -52,13 +52,16 @@ def main():
     """Test all theme directories."""
     # Theme directories are in project root, one level up from scripts/
     project_root = Path(__file__).parent.parent
-    
+
     # Find all theme directories (exclude docs, scripts, assets, .git)
     exclude_dirs = {"docs", "scripts", "assets", ".git"}
-    theme_dirs = sorted([
-        d for d in project_root.iterdir()
-        if d.is_dir() and d.name not in exclude_dirs and not d.name.startswith(".")
-    ])
+    theme_dirs = sorted(
+        [
+            d
+            for d in project_root.iterdir()
+            if d.is_dir() and d.name not in exclude_dirs and not d.name.startswith(".")
+        ]
+    )
 
     print("Theme Structure Validation")
     print("=" * 60)
@@ -83,7 +86,7 @@ def main():
     print(f"Results: {passed}/{len(theme_dirs)} themes have complete structure")
 
     if failed:
-        print(f"\nFailed themes:")
+        print("\nFailed themes:")
         for name, error in failed:
             print(f"  - {name}: {error}")
         return 1
@@ -94,4 +97,5 @@ def main():
 
 if __name__ == "__main__":
     import sys
+
     sys.exit(main())
